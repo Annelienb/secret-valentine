@@ -1,5 +1,7 @@
-.body {
-    background-image: -o-linear-gradient(bottom left, #a30044, #ffddf6);
+body {
+    background-image: linear-gradient(to bottom left, #a30044, #ffddf6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #header h1 {
