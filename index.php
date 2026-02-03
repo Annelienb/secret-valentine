@@ -27,5 +27,7 @@ include ('connection.php');
     <div id="content">
         <h2>Find Your Secret Valentine</h2>
         <p>Join our community and discover your secret valentine today!</p>
+
+        <textarea name="Text" id="TextId"></textarea>
 </body>
 </html>
