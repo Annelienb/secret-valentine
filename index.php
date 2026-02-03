@@ -29,5 +29,9 @@ include ('connection.php');
         <p>Join our community and discover your secret valentine today!</p>
 
         <textarea name="Text" id="TextId"></textarea>
+
+        <footer>
+            <p>Happy Valentine's Day!</p>
+        </footer>
 </body>
 </html>
