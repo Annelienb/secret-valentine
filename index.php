@@ -19,9 +19,9 @@ include ('connection.php');
      <div id ="menu">
       <nav>
     <ul>
-      Valentine
-      Roses
-      Very pro
+      <li>Valentine</li>
+      <li>Roses</li>
+      <li>Very pro</li>
     </ul>
   </nav>
         </div>
