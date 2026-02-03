@@ -20,7 +20,10 @@ body {
     font-size: 50px;
 }
 
-nav {
+#menu nav ul {
     text-align: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
     margin-top: 15px;
 }
