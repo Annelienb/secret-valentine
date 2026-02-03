@@ -1,4 +1,7 @@
-/* je moeder */
-#header {
-    background-color: blueviolet;
+.body {
+    background-image: -o-linear-gradient(bottom left, #a30044, #ffddf6);
+}
+
+#header h1 {
+    color: blue;
 }
