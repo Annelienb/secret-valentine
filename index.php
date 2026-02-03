@@ -19,13 +19,13 @@ include ('connection.php');
      <div id ="menu">
       <nav>
     <ul>
-      <li>Valentine</li>
-      <li>Roses</li>
-      <li>Very pro</li>
+      Valentine
+      Roses
+      Very pro
     </ul>
   </nav>
         </div>
-        
+
     <div id="content">
         <h2>Find Your Secret Valentine</h2>
         <p>Join our community and discover your secret valentine today!</p>
