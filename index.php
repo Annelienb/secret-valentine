@@ -24,9 +24,9 @@ include ('connection.php');
 
         <textarea name="Text" id="TextId"></textarea>
 
-        <div id="button">
-            <button type="button">Send</button>
-        </div>
+        
+            <button class="button">Send</button>
+        
     </div>
 
     <div id="footer">

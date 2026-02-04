@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     min-height: 100vh;
@@ -25,6 +21,50 @@ body {
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-    
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    font-style: oblique;
+    font-weight: bold;
+
 }
 
+#header {
+    background-color: #1a0c108f;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+textarea {
+    width: 10%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical; 
+    background-image: linear-gradient(to bottom right, #e6bada, #a30044);
+    background-repeat: no-repeat;
+    border-color: #a30044;
+}
+
+.button {
+    background-color: #772749;
+    color: rgb(216, 209, 209);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+ 
+
+}
