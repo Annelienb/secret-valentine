@@ -54,6 +54,9 @@ textarea {
     background-image: linear-gradient(to bottom right, #e6bada, #a30044);
     background-repeat: no-repeat;
     border-color: #a30044;
+    position: relative;
+    left: 700px;
+    top: 50px;
 }
 
 .button {
@@ -64,7 +67,7 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-
- 
-
+    position: relative;
+    left: 50px;
+    top: 20px;
 }
