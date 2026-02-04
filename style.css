@@ -1,22 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     background-image: linear-gradient(to bottom left, #a30044, #ffddf6);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-#header {
-    background-color: #9706328f;
+#content {
+    flex-grow: 1;   
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    margin-left: -10px;
-    margin-top: -10px;
 }
 
-#header h1 {
+#footer {
+    background-color: #1a0c108f;
+    padding: 10px;
     text-align: center;
-    font-family: cursive;
-    color: black;
-    font-size: 50px;
+    color: white;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
