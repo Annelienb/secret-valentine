@@ -11,6 +11,7 @@ include ('connection.php');
     <link rel="stylesheet" href="style.css">
     <link  rel="icon" href="envelopee.png">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="send_email.php" href="send_email.php">
 </head>
 <body>
 
