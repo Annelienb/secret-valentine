@@ -19,6 +19,9 @@ body {
     margin-right: -10px;
     font-style: oblique;
     font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 #description h2 {
@@ -28,7 +31,7 @@ body {
     font-style: oblique;
     font-weight: bold;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 160px;
 }
 
 #description p {
@@ -40,6 +43,7 @@ body {
 
 #email input {
     background-color: #772749;
+    color: rgb(216, 209, 209);
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -47,13 +51,18 @@ body {
     padding: 10px;
     border-radius: 5px;
     font-size: 16px;
-    cursor: text;
-    position: fixed;
-    left: 47%;
-    transform: translateX(-50%);
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
 }
 
 #email input::placeholder {
+    color: rgb(216, 209, 209);
+}
+
+#email input:focus {
+    background-color: #491128;
+    cursor: text;
     color: rgb(216, 209, 209);
 }
 
@@ -65,13 +74,42 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    position: fixed;
+    position: absolute;
     left: 58%;
-    transform: translateX(-50%);
     display: flex;
     align-items: center;
     margin-top: 30px;
+}
 
+#email button:hover {
+    background-color: #a30044;
+}
+
+#email textarea {
+    background-color: #772749;
+    color: rgb(216, 209, 209);
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 39%;
+    width: 300px;
+    height: 100px;
+}
+
+#email textarea:focus {
+    background-color: #491128;
+    cursor: text;
+    color: rgb(216, 209, 209);
+}
+
+#email textarea::placeholder {
+    color: rgb(216, 209, 209);
 }
 
 #credits {
@@ -80,9 +118,10 @@ body {
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-    margin-left: -10px;
-    margin-right: -10px;
     font-style: oblique;
     font-weight: bold;
-    margin-top: 200px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
