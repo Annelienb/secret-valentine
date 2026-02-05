@@ -6,6 +6,7 @@ body {
     background-image: linear-gradient(to bottom left, #a30044, #ffddf6);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Dancing Script', cursive;
 }
 
 #header {
@@ -17,19 +18,25 @@ body {
     margin-top: -20px;
     margin-left: -10px;
     margin-right: -10px;
-    font-style: oblique;
-    font-weight: bold;
     position: fixed;
     width: 100%;
     z-index: 1;
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#description {
+    animation: fadeIn 2s ease-in;
 }
 
 #description h2 {
     text-align: center;
     color: #772749;
     font-size: 24px;
-    font-style: oblique;
-    font-weight: bold;
     padding: 10px;
     margin-top: 160px;
 }
@@ -41,7 +48,11 @@ body {
     padding: 10px;
 }
 
-#email input {
+#secretMessage {
+    animation: fadeIn 2.5s ease-in;
+}
+
+#secretMessage input {
     background-color: #772749;
     color: rgb(216, 209, 209);
     display: flex;
@@ -56,17 +67,17 @@ body {
     left: 40%;
 }
 
-#email input::placeholder {
+#secretMessage input::placeholder {
     color: rgb(216, 209, 209);
 }
 
-#email input:focus {
+#secretMessage input:focus {
     background-color: #491128;
     cursor: text;
     color: rgb(216, 209, 209);
 }
 
-#email button {
+#secretMessage button {
     background-color: #772749;
     color: rgb(216, 209, 209);
     padding: 10px;
@@ -81,11 +92,11 @@ body {
     margin-top: 30px;
 }
 
-#email button:hover {
+#secretMessage button:hover {
     background-color: #a30044;
 }
 
-#email textarea {
+#secretMessage textarea {
     background-color: #772749;
     color: rgb(216, 209, 209);
     display: flex;
@@ -102,13 +113,13 @@ body {
     height: 100px;
 }
 
-#email textarea:focus {
+#secretMessage textarea:focus {
     background-color: #491128;
     cursor: text;
     color: rgb(216, 209, 209);
 }
 
-#email textarea::placeholder {
+#secretMessage textarea::placeholder {
     color: rgb(216, 209, 209);
 }
 
@@ -118,10 +129,12 @@ body {
     text-align: center;
     color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-    font-style: oblique;
-    font-weight: bold;
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
+}
+
+#credits {
+    animation: fadeIn 3s ease-in;
 }

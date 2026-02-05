@@ -11,11 +11,12 @@ include ('connection.php');
     <title>SecretValentine</title>
     <link rel="stylesheet" href="style.css">
     <link  rel="icon" href="envelopee.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div id="header">
-        <h1>Welcome to SecretValentine</h1>
+        <h1>Welcome to Secret Valentine</h1>
     </div>
 
     <div id="description">
@@ -23,7 +24,7 @@ include ('connection.php');
         <p>Join our community and discover your secret valentine today!</p>
     </div>
 
-    <div id="email">
+    <div id="secretMessage">
         <form action="send_email.php" method="post">
             <input type="email" name="email" placeholder="Enter your email" required>
             <button type="submit">Send</button>
@@ -37,6 +38,19 @@ include ('connection.php');
         Made with love by [Annelien/Marlise]
         </p>
     </div>
+
+    <?php
+    $messages = [
+  "Someone has been thinking about you 💌",
+  "Your smile drives someone crazy 👀",
+  "A secret admirer is closer than you think",
+  "You made someone's day without knowing it"
+];
+
+    $randomMessage = $messages[array_rand($messages)];
+?>
+
+    <p><?php echo $randomMessage; ?></p>
 
 </body>
 
