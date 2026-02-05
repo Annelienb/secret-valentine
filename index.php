@@ -21,12 +21,19 @@ include ('connection.php');
     <div id="description">
         <h2>Find Your Secret Valentine</h2>
         <p>Join our community and discover your secret valentine today!</p>
+    </div>
 
-            <button class="send">Send</button>
+    <div id="email">
+        <form action="send_email.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Send</button>
+        </form>
     </div>
 
     <div id="credits">
-        <p>Happy Valentine's Day!</p>
+        <p>Happy Valentine's Day!
+        Made with love by [Annelien/Marlise]
+        </p>
     </div>
 
 </body>
