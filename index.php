@@ -26,16 +26,17 @@ include ('connection.php');
 
     <div id="secretMessage">
         <form action="send_email.php" method="post">
-            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="email" name="email" placeholder="Enter crush email" required>
             <button type="submit">Send</button>
             <input type="hidden" name="secret_valentine" value="<?php echo $secret_valentine; ?>">
             <textarea name="message" placeholder="Write a message to your secret valentine" required></textarea>
+            <button type="icon">❤️</button>
         </form>
     </div>
 
     <div id="credits">
         <p>Happy Valentine's Day! <br>
-        Made with love by [Annelien/Marlise]
+        Made with ❤️ by Annelien/Marlise
         </p>
     </div>
 
