@@ -18,18 +18,14 @@ include ('connection.php');
         <h1>Welcome to SecretValentine</h1>
     </div>
 
-    <div id="content">
+    <div id="description">
         <h2>Find Your Secret Valentine</h2>
         <p>Join our community and discover your secret valentine today!</p>
 
-        <textarea name="Text" id="TextId"></textarea>
-
-        
-            <button class="button">Send</button>
-        
+            <button class="send">Send</button>
     </div>
 
-    <div id="footer">
+    <div id="credits">
         <p>Happy Valentine's Day!</p>
     </div>
 
