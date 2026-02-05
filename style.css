@@ -125,9 +125,10 @@ body {
     color: rgb(216, 209, 209);
 }
 
-#secretMessage button[type="icon"] {
+#secretMessage #heartButton {
     margin-left: 60px;
     padding: 8px;
+    display: flex;
 }
 
 #credits {
