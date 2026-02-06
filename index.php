@@ -63,10 +63,13 @@ include ('connection.php');
 
     </script>
 
+    <div id="audioPlayer">
+
     <audio controls autoplay loop>
     <source src="athousandmiles.mpeg" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
+    </div>
 
 </body>
 

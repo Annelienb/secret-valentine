@@ -147,3 +147,10 @@ body {
 #credits {
     animation: fadeIn 3s ease-in;
 }
+
+#audioPlayer {
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    margin-top: 70px;
+}
