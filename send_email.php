@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = $_POST["email"];
     $message = $_POST["message"];
     $subject = "💌 A Secret Valentine Message";
-    $headers = "From: secretvalentine@yourwebsite.com";
+    $headers = "From: 250848@student.glu.nl";
 
     if (mail($to, $subject, $message, $headers)) {
         echo "Message sent successfully 💖";
