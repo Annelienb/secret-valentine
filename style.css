@@ -149,5 +149,7 @@ body {
 }
 
 .playButton {
-    background: red !important;
+    background-color: #772749;
+    color: rgb(216, 209, 209);
+    padding: 10px;
 }
