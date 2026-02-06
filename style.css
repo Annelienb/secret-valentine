@@ -147,3 +147,9 @@ body {
 #credits {
     animation: fadeIn 3s ease-in;
 }
+
+.playButton {
+    background-color: #772749;
+    color: rgb(216, 209, 209);
+    padding: 10px;
+}
